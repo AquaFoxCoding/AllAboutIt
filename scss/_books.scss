@@ -65,7 +65,7 @@
     }
   }
 
-  &__books {
+  .active {
     font-weight: bold;
     filter: drop-shadow(2px 2px 2px hsla(0, 0, 0, 0.15));
   }
@@ -560,7 +560,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .mobile-nav {
     display: none;
   }
@@ -571,7 +571,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
 
     img {
@@ -581,7 +581,7 @@
       filter: drop-shadow(2px 2px 2px hsla(0, 0, 0, 0.25));
     }
 
-    &__books {
+    .active {
       font-weight: bold;
       filter: drop-shadow(2px 2px 2px hsla(0, 0, 0, 0.25));
     }
@@ -701,15 +701,6 @@
   }
 
   .other-books-header {
-    width: 110.4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .desktop-pattern {
-      display: flex;
-      margin: auto;
-      width: 20rem;
-    }
     p {
       width: 56.8rem;
       height: 32rem;
@@ -938,7 +929,6 @@
 
   .desktop-footer {
     background-color: var(--primary-orange);
-    // height: 15.8rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -959,7 +949,7 @@
     }
 
     a {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       color: white;
       text-decoration: none;
     }
@@ -983,8 +973,8 @@
     width: 100%;
 
     img {
-      width: 8rem;
-      height: 8rem;
+      width: 5rem;
+      height: 5rem;
       margin-left: 5rem;
     }
     &__container {
@@ -1030,8 +1020,8 @@
     width: 100%;
 
     img {
-      width: 8rem;
-      height: 8rem;
+      width: 5rem;
+      height: 5rem;
       margin-left: 5rem;
     }
     &__container {
@@ -1069,6 +1059,44 @@
 
     button {
       width: 35rem;
+      height: 8rem;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .desktop-nav {
+    font-size: 2.5rem;
+  }
+
+  .other-books-header {
+    width: 110.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .desktop-pattern {
+      display: flex;
+      margin: auto;
+      width: 20rem;
+    }
+  }
+
+  .desktop-footer {
+    a {
+      font-size: 1.5rem;
+    }
+  }
+
+  .read-more-strategies {
+    img {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+
+  .read-more-focused {
+    img {
+      width: 8rem;
       height: 8rem;
     }
   }

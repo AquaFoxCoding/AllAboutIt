@@ -153,6 +153,46 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .contact-container {
+    width: 60rem;
+
+    h1 {
+      font-size: 3rem;
+      width: 29rem;
+      height: 9rem;
+      margin: 3rem auto;
+    }
+
+    ul {
+      li {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .blog-suggestions-container {
+    width: 60rem;
+
+    h1 {
+      font-size: 3rem;
+      width: 35rem;
+      height: 9rem;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+
+    form {
+      #comment-form {
+        width: 34rem;
+        height: 26rem;
+      }
+    }
+  }
+}
+
 @media (min-width: 1440px) {
   .contact-container {
     width: 98.8rem;
@@ -179,11 +219,12 @@
 
   .blog-suggestions-container {
     width: 98.8rem;
+    height: auto;
     h1 {
+      padding: 3rem;
       font-size: 4rem;
       width: 55.3rem;
-      height: 11.8rem;
-      margin-bottom: 3rem;
+      height: 13rem;
     }
 
     p {

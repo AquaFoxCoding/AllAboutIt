@@ -59,6 +59,11 @@
 
 @media (min-width: 1024px) {
   .about-container {
+    h1 {
+      font-size: 3rem;
+      width: auto;
+      padding: 5rem;
+    }
     h2 {
       width: 43rem;
       height: auto;
@@ -76,7 +81,6 @@
     display: none;
   }
   .about-desktop-container {
-    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     color: white;
